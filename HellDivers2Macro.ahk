@@ -9,10 +9,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; *** SET YOUR KEYBINDINGS HERE ***
 ; *********************************
 Numpad7::RESUPPLY()
+
 Numpad4::GatlingSentry()
-Numpad3::EagleRearm()
-Numpad2::Orbital120MMHEBarrage()
-Numpad1::OrbitalPrecisionStrike()
+Numpad3::Orbital120MMHEBarrage()
+Numpad2::OrbitalPrecisionStrike()
+Numpad1::Stalwart()
+
 Numpad0::REINFORCE()
 
 
@@ -174,6 +176,37 @@ GatlingSentry() {
     SendInput, {Blind}{Down Down}
     Sleep 35
     SendInput, {Blind}{Down Up}
+    Sleep 35
+    SendInput, {LControl Up}
+    return
+}
+
+Stalwart() {
+    SendInput, {LControl Down}
+    Sleep 35
+    SendInput, {Blind}{Down Down}
+    Sleep 35
+    SendInput, {Blind}{Down Up}
+    Sleep 35
+	SendInput, {Blind}{Left Down}
+    Sleep 35
+    SendInput, {Blind}{Left Up}
+    Sleep 35
+	SendInput, {Blind}{Down Down}
+    Sleep 35
+    SendInput, {Blind}{Down Up}
+    Sleep 35
+	SendInput, {Blind}{Up Down}
+    Sleep 35
+    SendInput, {Blind}{Up Up}
+    Sleep 35
+	SendInput, {Blind}{Up Down}
+    Sleep 35
+    SendInput, {Blind}{Up Up}
+    Sleep 35
+	SendInput, {Blind}{Left Down}
+    Sleep 35
+    SendInput, {Blind}{Left Up}
     Sleep 35
     SendInput, {LControl Up}
     return

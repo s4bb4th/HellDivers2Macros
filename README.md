@@ -3,6 +3,9 @@
 This is an AutoHotKey script that to quickly call in stratagems.
 **Read the Notes section for FAQ**
 
+Demonstration:
+https://www.youtube.com/watch?v=T_I3-dgA9xI
+
 
 # How To Use:
 
