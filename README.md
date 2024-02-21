@@ -1,7 +1,11 @@
 # HellDivers 2 Macro [ CURRENTLY BROKEN ]
-** The method used for this macro seems to have been patched.
-** Even a basic logitech software macro uses AHK to input commands, meaning a solution would require a more complex method.
-** This will take some digging, fix ETA unkown
+* The method used for this macro seems to have been patched.
+* Even a basic logitech software macro uses AHK to input commands, meaning a solution would require a more complex method.
+* This will take some digging, fix ETA unkown
+
+
+
+
 
 This is an AutoHotKey script that to quickly call in stratagems.
 **Read the Notes section for FAQ**
